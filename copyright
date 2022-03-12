@@ -3,8 +3,9 @@ Upstream-Name: arena
 Upstream-Contact: Mielo Symeonidis <mielo.symeonidis@gmail.com>
 Source: {{your plugin github url here}}
 
-Files: *
+Files: data/*
 Copyright: Mielo Symeonidis <mielo.symeonidis@gmail.com>
+License: GPL-3+
 
 Files:
  icon*.png
