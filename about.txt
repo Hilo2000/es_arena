@@ -1,2 +1,1 @@
-Enter some text that describes your plugin in this file.
-Endless Sky will then display it when the user has your plugin installed and selected.
+Adds two large arenas for you to discover and beat. One of the arenas being a massive teamed fight between three diffrent teams, and the other being a 1v1 arena where you will get to fight a variety of large, unique spaceships.
