@@ -1,10 +1,10 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: {{your plugin name here}}
-Upstream-Contact: {{your name here}} <{{your email here}}>
+Upstream-Name: arena
+Upstream-Contact: Mielo Symeonidis <mielo.symeonidis@gmail.com>
 Source: {{your plugin github url here}}
 
 Files: *
-Copyright: {{your name and email again}}
+Copyright: Mielo Symeonidis <mielo.symeonidis@gmail.com>
 
 Files:
  icon*.png
