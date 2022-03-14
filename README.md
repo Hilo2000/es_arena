@@ -4,7 +4,7 @@ This mod contains two arenas that are supposed to be used in-game but can also b
 # Arena Locations
 The northern arena can be found at the northernmost of human space next to the three pirate worlds. The exact system is called Unagi. Here, there isn't much of a ship level reccomendation.
 
-The southern arena can be found at the southernmost of human space. The exact system is called Sadr. To succeed, you will need a large fleet of teir II battleships. From there, you can work on the easier jobs to complete the hardes job. 
+The southern arena can be found at the southernmost of human space. The exact system is called Sadr. To succeed, you will need a large fleet of teir II battleships. From there, you can work on the easier jobs to complete the hardest job(s). 
 
 # Special Thanks & Credits:
 My family,
