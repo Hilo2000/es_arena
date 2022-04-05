@@ -7,6 +7,4 @@ The northern arena can be found at the northernmost of human space next to the t
 The southern arena can be found at the southernmost of human space. The exact system is called Sadr. To succeed, you will need a large fleet of teir II battleships. From there, you can work on the easier jobs to complete the hardest job(s). 
 
 # Special Thanks & Credits:
-My family,
-CriticalHit, and
-Antman23.
+My family, the Endless Sky devs, the Endless Sky communisty, yuagiss, CriticalHit, and Antman23
