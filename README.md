@@ -8,7 +8,9 @@ To reach the arena, try and go as far down as possible. A little to the left of 
 
 ??? (Storyline)
 
-≋ 1.4 (Battles or Tweaks)
+≋ 1.5 (Battles or Tweaks)
+
+1.4 (New Planet for Harder Missions) {Harder missions will be non-repeatable high-reward missions}
 
 1.3 (First Contact)
 
