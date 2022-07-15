@@ -6,7 +6,7 @@ fleet "Small Arena Security"
 		heroic disables frugal opportunistic
 	variant 8
 		"Hawk"
-		"Dark Berserker"
+		"Sparrow"
 	variant 4
 		"Hawk"
 		"Fury"
@@ -15,7 +15,7 @@ fleet "Small Arena Security"
 		"Fury (Missile)"
 	variant 2
 		"Fury (Bomber)"
-		"Viper Mk 2 Ambush"
+		"Sparrow"
 	variant 2
 		"Hawk"
 		"Fury (Laser)"
@@ -25,7 +25,7 @@ fleet "Small Arena Security"
 		"Fury (Laser)"
 		"Fury (Missile)"
 	variant 10
-		"Viper Mk 2 Ambush" 2
+		"Sparrow" 2
 	variant 2
 		"Hawk"
 	variant 1
@@ -37,30 +37,27 @@ fleet "Small Arena Security"
 	variant 1
 		"Hawk (Bomber)"
 	variant 2
-		"Viper Mk 2"
+		"Sparrow"
 	variant 2
 		"Osprey"
 	variant 4
 		"Hawk"
-		"Viper Mk 2" 2
+		"Sparrow" 2
 	variant 2
 		"Hawk (Rocket)"
-		"Viper Mk 2 Ambush" 2
+		"Sparrow" 2
 	variant 2
 		"Hawk (Speedy)"
-		"Advance Wing Poseidon" 2
+		"Sparrow" 2
 	variant 2
 		"Hawk (Bomber)"
-		"Viper Mk 2" 2
+		"Sparrow" 2
 	variant 2
 		"Fury (Bomber)"
-		"Advance Wing" 2
+		"Sparrow" 2
 	variant 2
 		"Hawk (Plasma)"
-		"Advance Wing Poseidon" 2
-	variant 2
-		"Legionnaire"
-		"X Wing" 2
+		"Sparrow" 2
 		
 	
 fleet "Large Arena Security"
@@ -70,14 +67,14 @@ fleet "Large Arena Security"
 	personality
 		heroic disables frugal opportunistic
 	variant 10
-		"Frontier" 3
+		"Bastion"
 	variant 5
 		"Bastion (Heavy)"
 	variant 5
 		"Bastion (Laser)"
 	variant 8
 		"Osprey"
-		"Advance Wing"
+		"Fury"
 	variant 4
 		"Osprey (Missile)"
 		"Fury (Missile)"
@@ -101,17 +98,17 @@ fleet "Large Arena Security"
 		"Bastion (Heavy)"
 		"Osprey (Missile)"
 	variant 3
-		"Frontier" 2
+		"Bastion (Laser)"
 		"Osprey (Laser)"
 	variant 4
 		"Bastion"
-		"Viper Mk 2 Ambush" 2
+		"Sparrow" 2
 	variant 2
 		"Bastion (Heavy)"
-		"Wren" 2
+		"Sparrow" 2
 	variant 2
 		"Bastion (Laser)"
-		"Little Wing" 2
+		"Sparrow" 2
 	variant 2
 		"Falcon"
 	variant 1
@@ -121,16 +118,16 @@ fleet "Large Arena Security"
 	variant 2
 		"Falcon"
 		"Hawk" 2
-		"Little Wing" 3
+		"Sparrow" 3
 	variant 1
 		"Falcon (Heavy)"
 		"Hawk" 2
-		"Little Wing" 3
+		"Sparrow" 3
 	variant 1
 		"Falcon (Laser)"
 		"Hawk"
 		"Hawk (Plasma)"
-		"Wren" 3
+		"Sparrow" 3
 	variant 4
 		"Falcon"
 		"Bastion"
@@ -141,7 +138,7 @@ fleet "Large Arena Security"
 		"Hawk (Rocket)"
 	variant 2
 		"Hawk (Rocket)" 2
-		"Wren" 4
+		"Sparrow" 4
 	variant 2
 		"Falcon (Heavy)"
 		"Bastion (Heavy)"
@@ -157,11 +154,11 @@ fleet "Large Arena Security"
 	variant 2
 		"Bastion (Heavy)"
 		"Fury (Bomber)" 2
-		"Little Wing" 2
+		"Sparrow" 2
 	variant 2
 		"Falcon (Heavy)"
 		"Fury (Bomber)" 2
-		"Wren" 4
+		"Sparrow" 4
 	variant 1
 		"Hawk" 4
 	variant 1
@@ -169,43 +166,3 @@ fleet "Large Arena Security"
 	variant 1
 		"Hawk (Plasma)" 2
 		"Hawk (Bomber)" 2
-	variant 2
-		"Galactica Class"
-		"Viper" 12
-	variant 2
-		"Galactica Class Crow"
-		"Black Viper" 12
-	variant 2
-		"Galactica Class Focused Flak"
-		"A Wing" 12
-	variant 2
-		"Galactica Class Gatling"
-		"X Wing" 12
-	variant 1
-		"Pegasus Class"
-		"A Wing" 10
-		"Black Viper" 10
-	variant 1
-		"Pegasus Class Poseidon"
-		"Black Viper" 10
-		"X Wing" 10
-	variant 1
-		"Pegasus Class Laser"
-		"Black Viper" 10
-		"X Wing" 10
-	variant 3
-		"Crusader Corvette"
-	variant 6
-		"Folain"
-	variant 4
-		"Corellian Freighter Mk 2 crow"
-		"Corellian Freighter Mk 2 Babushka"
-		"Corellian Freighter Mk 2 Arc"		
-	variant 3	
-		"Crusader Corvette HEHPLA"
-	variant 3	
-		"Crusader Corvette Babushka"
-	variant 3	
-		"Crusader Corvette Gatling"
-	variant 10
-		"Newmaker"
