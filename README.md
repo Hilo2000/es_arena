@@ -4,10 +4,13 @@ This mod contains an arena and a alternitive start that are supposed to be used 
 # Arena Location
 To reach the arena, try and go as far down as possible. A little to the left of the Quarg should be a system named Tirex. There, ignore go through the wormhold to reach the system with the arena planet on it.
 
+# Updates
+
+1.1 (New Dialoge)
+Curret >> 1.0 (Basic)
+
 # Other:
 
 Special thanks to:
 My family, yuagiss, CriticalHit, and Antman23
 
-If you want to check out my other arena mod, go to:
-https://github.com/Hilo2000/arena-plus/blob/main/
