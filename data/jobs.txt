@@ -109,7 +109,62 @@ mission "Arena-HW"
 	on complete
 		payment 700000
 		dialog "You land back down with a loud roar from the croud and recive your payment. The <npc> has ben defeated."
-		
+
+
+mission "Arena-Rand"
+	name "Arena: Random"
+	description "Sign up in a random battle and have the chance from fighting anything from an intercepter to a heavy warship."
+	repeat
+	job
+	source Lilac
+	npc kill
+		government "Arena (Players)"
+		personality heroic staying nemesis target
+		system Tirax
+		fleet
+			names "arena"
+			variant
+				"Leviathan"
+			variant
+				"Falcon"
+			variant
+				"Protector"
+			variant
+				"Vanguard"
+			variant
+				"Osprey"
+			variant
+				"Firebird"
+			variant
+				"Aerie"
+			variant
+				"Manta"
+			variant
+				"Raven"
+			variant
+				"Quicksilver"
+			variant
+				"Gunboat"
+			variant
+				"Headhunter"
+			variant
+				"Hawk"
+			variant
+				"Wasp"
+			variant
+				"Fury"
+			variant
+				"Sparrow"
+		dialog "You have defeated the <npc>, you should land back on Lilac now."
+	on visit
+		dialog "You have went back to Lilac, but have not defeated the <npc>! You should get back to the private arena to finish him off."
+	on complete
+		payment 350000
+		dialog "You land back down and recive your payment. The <npc> has ben defeated."
+
+
+
+
 #-HERE AND DOWN-----------------------------Non-Repeatable; Rewards++
 
 mission "Arena-QW"
