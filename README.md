@@ -6,6 +6,12 @@ To reach the arena, try and go as far down as possible. A little to the left of 
 
 # Updates
 
+≋ 2.0 ~ ∞ (Regular Updates & Bug Fixes)
+
+≋ 2.0 Finished Version
+
+≋ 1.5 ~ 1.9 (Battles or Tweaks)
+
 ≋ 1.6 (Full Storyline)
 
 ≋ 1.5 (Battles or Tweaks)
