@@ -6,9 +6,11 @@ To reach the arena, try and go as far down as possible. A little to the left of 
 
 # Updates
 
-1.1 (New Dialoge)
+1.2 (Random Battle Option)
 
-Curret >> 1.0 (Basic)
+Current >> 1.1 (New Dialoge)
+
+1.0 (Basic)
 
 # Other:
 
