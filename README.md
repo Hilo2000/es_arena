@@ -6,6 +6,12 @@ To reach the arena, try and go as far down as possible. A little to the left of 
 
 # Updates
 
+??? (Storyline)
+
+>= 1.4 (Battles or Tweaks)
+
+1.3 (First Contact)
+
 1.2 (Random Battle Option)
 
 Current >> 1.1 (New Dialogue)
