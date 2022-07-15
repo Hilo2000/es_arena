@@ -2,56 +2,60 @@
 
 phrase "hostile arena"
 	word
-		"I will"
+		"Be"
+		"I hope you are"
+		"Get"
 	word
 		" "
 	word
-		"destroy"
-		"annihilate"
-		"defeat"
+		"ready"
+		"prepaired"
 	word
-		" "
+		" to "
 	word
-		"you"
-		"your ship"
-		"you and your ship"
+		"be destroyed"
+		"eat spacedust"
+		"be killed"
+		"be annihilated"
+		"be blitzkrieged"
+		"kiss your ship goodbye"
+		"meet your creator"
 	word
-		"."
+		"!"
 
-
-phrase "friendly arena"
-	word
-		"We will"
-	word
-		" "
-	word
-		"destroy"
-		"annihilate"
-		"defeat"
-	word
-		" "
-	word
-		"those foes!"
-		"those enemys!"
-		"those baddies!"
-	word
-		"."
 
 phrase "dis hostile arena"
 	word
-		"You have"
+		"Please forgive my"
+		"Please forget about my"
+		"Please put aside my"
 	word
 		" "
 	word
-		"destroyed"
-		"annihilated"
-		"defeated"
+		"rude"
+		"past"
+		"irresponsible"
+		"mean"
+		"condescending"
+		
 	word
 		" "
 	word
-		"me"
-		"my ship"
-		"me and my ship"
+		"deeds"
+		"actions"
+		"doings"
+		"mistakes"
+		"behavior"
+	word
+		" and "
+	word
+		"spare me"
+		"spare my crew"
+		"spare me and my crew"
+		"spare us"
+		"show us mercy"
+		"let us live"
+		"help us out"
 	word
 		"."
 
