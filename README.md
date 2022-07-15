@@ -10,3 +10,4 @@ Special thanks to:
 My family, yuagiss, CriticalHit, and Antman23
 
 If you want to check out my other arena mod, go to:
+https://github.com/Hilo2000/arena-plus/blob/main/
