@@ -1,1 +1,1 @@
-This plugin adds two arenas with diffrent combat styles for the player to enjoy in-game and for testing purposes. 
+This plugin adds an arena with multiple hard and easy challenges. No mods required.
