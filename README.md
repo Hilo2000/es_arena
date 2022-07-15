@@ -20,6 +20,8 @@ Current >> 1.2 (Random Battle Option)
 
 1.0 (Basic)
 
+KEY: {Marker points to current version} {If ≋ is shown, the version number is approximate} {Version Number} {(What was added in the version)}
+
 # Other:
 
 Special thanks to:
