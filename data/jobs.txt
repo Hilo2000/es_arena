@@ -157,28 +157,6 @@ mission "Arena-CA"
 		give ship "Carrier" "Carrier"
 
 
-#-HERE AND DOWN-----------------------------Requires Plugin: Sci-Fi-Flavours
-	
-mission "Arena-MD"
-	name "Arena: Modified Dragoon"
-	description "An arena champion is looking for anyone to challange his ship- a Modified Dragoon. Anyone who wins will get a Dragoon of their own along with a million credits."
-	job
-	source Lilac
-	npc kill
-		government "Arena (Players)"
-		personality heroic staying nemesis target
-		system Tirax
-		fleet
-			names "arena"
-			variant
-				"Modified Dragoon"
-		dialog "You have defeated the <npc>, you should land back on Lilac now."
-	on visit
-		dialog "You have went back to Lilac, but have not defeated the <npc>! You should get back to the private arena to finish him off."
-	on complete
-		payment 1000000
-		dialog "You land back down on Lilac, the roar of cheering is so loud, you feel as though you went deaf. But after a few minutes you recive the keys to your new ship along with a milliton credits."	
-		give ship "Modified Dragoon" "Modified Dragoon"
 
 
 		
