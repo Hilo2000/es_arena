@@ -33,5 +33,5 @@ KEY: {Marker points to current version} {If ≋ is shown, the version number is 
 ## Other
 
 Special thanks to:
-My family, yuagiss, CriticalHit, and Antman23
+My family, yuagiss, and Antman23
 
