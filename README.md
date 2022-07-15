@@ -6,7 +6,7 @@ To reach the arena, try and go as far down as possible. A little to the left of 
 
 # Updates
 
-≋ 2.6 (Full Storyline)
+≋ 1.6 (Full Storyline)
 
 ≋ 1.5 (Battles or Tweaks)
 
