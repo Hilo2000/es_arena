@@ -1,0 +1,60 @@
+outfit "Destruction Beam"
+	category "Guns"
+	cost 390000
+	thumbnail "outfit/dualEbeam"
+	"mass" 22
+	"outfit space" -22
+	"weapon capacity" -22
+	"gun ports" -1
+	weapon
+		sprite "projectile/2x electron"
+			"frame rate" 60
+		sound "electron beam"
+		"hit effect" "electron impact"
+		"inaccuracy" .3
+		"velocity" 450
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 2
+		"firing heat" 4
+		"shield damage" 8.8
+		"hull damage" 9.9
+	description "	The Destruction Beam seems to be an upgraded version of the electron beam which improves litteraly everything. This might actually be the second best beam in the galaxy, except of course from the Quarg."
+
+
+outfit "Destruction Turret"
+	category "Turrets"
+	cost 770000
+	thumbnail "outfit/electron turret"
+	"mass" 34
+	"outfit space" -34
+	"weapon capacity" -34
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/2x electron"
+			"frame rate" 60
+		"hardpoint sprite" "hardpoint/electron turret"
+		"hardpoint offset" 8.
+		sound "electron beam"
+		"hit effect" "electron impact"
+		"inaccuracy" .3
+		"turret turn" 2
+		"velocity" 450
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 2
+		"firing heat" 3.4
+		"shield damage" 8.8
+		"hull damage" 9.9
+	description "	The Destruction Turret is a monted version of the Destruction Beam. Of cource, whoever made the Destruction Turret had to upgrade the base turret itself making almost everything about the Destruction Turret better than the Electron Turret."
+	
+	
+	
+	
+	
+	
+	
+	
+	
+

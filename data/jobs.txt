@@ -1,9 +1,91 @@
-
 #Lilac -----------
 
-mission "Arena: Easy"
-	name "Arena: Easy"
+mission "Arena-I"
+	name "Arena: Interceptor"
+	description "A new player with a ship known as <npc> has challenged you to a battle. Fight and beat them at Tirax to bet a prize of <payment>."
+	repeat
+	job
+	source Lilac
+	npc kill
+		government "Arena (Players)"
+		personality heroic staying nemesis target
+		system Tirax
+		fleet
+			names "arena"
+			variant
+				"Hawk"
+			variant
+				"Wasp"
+			variant
+				"Fury"
+			variant
+				"Sparrow"
+		dialog "You have defeated the <npc>, you should land back on Lilac now."
+	on visit
+		dialog "You have went back to Lilac, but have not defeated the <npc>! You should get back to the private arena to finish him off."
+	on complete
+		payment 100000
+		dialog "You land back down on Lilac and the croud softly claps. You recive your payment and head out. The <npc> has ben defeated."
+
+
+mission "Arena-LW"
+	name "Arena: Light Warship"
+	description "A starter arena player with a ship known as <npc> has challenged you to a battle. Fight and beat them at Tirax to bet a prize of <payment>."
+	repeat
+	job
+	source Lilac
+	npc kill
+		government "Arena (Players)"
+		personality heroic staying nemesis target
+		system Tirax
+		fleet
+			names "arena"
+			variant
+				"Raven"
+			variant
+				"Quicksilver"
+			variant
+				"Gunboat"
+			variant
+				"Headhunter"
+		dialog "You have defeated the <npc>, you should land back on Lilac now."
+	on visit
+		dialog "You have went back to Lilac, but have not defeated the <npc>! You should get back to the private arena to finish him off."
+	on complete
+		payment 300000
+		dialog "You land back down with a small roar from the croud and recive your payment. The <npc> has ben defeated."
+
+
+mission "Arena-MW"
+	name "Arena: Medium Warship"
 	description "A rookie arena player with a ship known as <npc> has challenged you to a battle. Fight and beat them at Tirax to bet a prize of <payment>."
+	repeat
+	job
+	source Lilac
+	npc kill
+		government "Arena (Players)"
+		personality heroic staying nemesis target
+		system Tirax
+		fleet
+			names "arena"
+			variant
+				"Osprey"
+			variant
+				"Firebird"
+			variant
+				"Aerie"
+			variant
+				"Manta"
+		dialog "You have defeated the <npc>, you should land back on Lilac now."
+	on visit
+		dialog "You have went back to Lilac, but have not defeated the <npc>! You should get back to the private arena to finish him off."
+	on complete
+		payment 500000
+		dialog "You land back down with a roar from the croud and recive your payment. The <npc> has ben defeated."
+
+mission "Arena-HW"
+	name "Arena: Heavy Warship"
+	description "An intermidiate arena player with a ship known as <npc> has challenged you to a battle. Fight and beat them at Tirax to bet a prize of <payment>."
 	repeat
 	job
 	source Lilac
@@ -25,34 +107,14 @@ mission "Arena: Easy"
 	on visit
 		dialog "You have went back to Lilac, but have not defeated the <npc>! You should get back to the private arena to finish him off."
 	on complete
-		payment 200000
-		dialog "You land back down with a roar from the croud and recive your payment. The <npc> has ben defeated."
+		payment 700000
+		dialog "You land back down with a loud roar from the croud and recive your payment. The <npc> has ben defeated."
 		
-mission "Arena: Moderate"
-	name "Arena: Moderate"
-	description "A professional arena player claims that their ship, <npc> which takes the form of a Korath Raider is unbeatable, and has challanged you to a battle at Tirax. Fight and beat them to recive an award of <payment> along with anything you salvaged from their ship."
-	repeat
-	job
-	source Lilac
-	npc kill
-		government "Arena (Players)"
-		personality heroic staying nemesis target
-		system Tirax
-		fleet
-			names "arena"
-			variant
-				"Korath Raider"
-		dialog "You have defeated the <npc>, you should land back on Lilac now."
-	on visit
-		dialog "You have went back to Lilac, but have not defeated the <npc>! You should get back to the private arena to finish him off."
-	on complete
-		payment 200000
-		dialog "You land back down with a roar from the croud and recive your payment. The <npc> has ben defeated."
-		
-mission "Arena: Hard"
-	name "Arena: Hard"
-	description "A veteran arena player claims that their ship, <npc> which takes the form of a Quarg Wardragon is unbeatable, and has challanged you to a battle at Tirax. Fight and beat them to recive an award of <payment> along with anything you salvaged from their ship."
-	repeat
+#-HERE AND DOWN-----------------------------Non-Repeatable; Rewards++
+
+mission "Arena-QW"
+	name "Arena: Quarg Wardragon"
+	description "A veteran arena player claims that their ship, <npc> which takes the form of a Quarg Wardragon is unbeatable, and has challanged you to a battle at Tirax. Fight and beat them to recive an award of <payment> along with a brand new Quarg Skylark to yourself."
 	job
 	source Lilac
 	npc kill
@@ -67,48 +129,62 @@ mission "Arena: Hard"
 	on visit
 		dialog "You have went back to Lilac, but have not defeated the <npc>! You should get back to the private arena to finish him off."
 	on complete
-		payment 300000
-		dialog "You land back down with a roar from the croud and recive your payment. The <npc> has ben defeated."
+		payment 1500000
+		dialog "You land back down with a roar from the croud louder than ever before and collect your payment as well as recive the keycard to a brand new Quark Skylark parker right beside the spaceport."
+		give ship "Quarg Skylark" "Quarg Skylark"
 		
-		
-		
-		
-		
-		
-		
-		
-		
-mission "Arena: Teamed (Hard)"
-	name "Arena: Teamed (Hard)"
-	description "Alongside a group of allies, fight against a large band of arena players located in Tirax. The arena will supply you with a payment of <payment> if you destroy the opposing side."
-	repeat
+mission "Arena-CA"
+	name "Arena: Carrier"
+	description "A navy officer proudly presents his Carrier which he claims to be indestructible. He says that anyone that can beat his Carrier he will steal another to give to the winner and risk loosing his job."
 	job
 	source Lilac
 	npc kill
-		personality heroic
+		government "Arena (Players)"
+		personality heroic staying nemesis target
 		system Tirax
-		government "Red Team"
-		fleet 1
+		fleet
 			names "arena"
 			variant
-				"Quarg Wardragon" 2
-				"Korath Raider" 4
-				"Protector" 8
-				
-	npc
-		personality heroic
-		system Tirax
-		government "Blue Team"
-		fleet 1
-			names "arena"
-			variant
-				"Korath Raider" 4
-				"Quarg Skylark" 2 
-
+				"Carrier"
+				"Lance" 4
+				"Combat Drone" 6
+		dialog "You have defeated the <npc>, you should land back on Lilac now."
 	on visit
-		dialog "You have went back to Lilac, but have not defeated the enemy fleet! You should get back to the arena to finish him off."
+		dialog "You have went back to Lilac, but have not defeated the <npc>! You should get back to the private arena to finish him off."
 	on complete
-		payment 2000000
-		dialog "You land back down with a roar from the croud and as a whole, you and your surviving teamates collect your prizes."
+		payment 1500000
+		dialog "You land back down with quite a loud roar from the croud and collect your payment as well as recive the keycard to a brand new Quark Skylark parker right beside the spaceport."
+		give ship "Carrier" "Carrier"
+
+
+#-HERE AND DOWN-----------------------------Requires Plugin: Sci-Fi-Flavours
+	
+mission "Arena-MD"
+	name "Arena: Modified Dragoon"
+	description "An arena champion is looking for anyone to challange his ship- a Modified Dragoon. Anyone who wins will get a Dragoon of their own along with a million credits."
+	job
+	source Lilac
+	npc kill
+		government "Arena (Players)"
+		personality heroic staying nemesis target
+		system Tirax
+		fleet
+			names "arena"
+			variant
+				"Modified Dragoon"
+		dialog "You have defeated the <npc>, you should land back on Lilac now."
+	on visit
+		dialog "You have went back to Lilac, but have not defeated the <npc>! You should get back to the private arena to finish him off."
+	on complete
+		payment 1000000
+		dialog "You land back down on Lilac, the roar of cheering is so loud, you feel as though you went deaf. But after a few minutes you recive the keys to your new ship along with a milliton credits."	
+		give ship "Modified Dragoon" "Modified Dragoon"
+
+
+		
+		
+		
+		
 		
 
+		

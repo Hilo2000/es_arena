@@ -1,14 +1,9 @@
-
 system Sadr
 	object "Southern Arena Wormhole"
 		sprite planet/wormhole
 		distance 4000
 		period 2000
-system Unagi
-	object "Northern Arena Wormhole"
-		sprite planet/wormhole
-		distance 4000
-		period 2000
+
 		
 system Tirax
 	pos -351 690
@@ -24,7 +19,9 @@ system Tirax
 	trade "Luxury Goods" 1600
 	trade Medical 630
 	trade Metal 200
-	trade Plastic 680		
+	trade Plastic 680
+	fleet "Small Arena Security" 300
+	fleet "Large Arena Security" 500		
 	object
 		sprite star/k0
 		distance 500
@@ -49,8 +46,10 @@ system Ochillon
 	trade Medical 630
 	trade Metal 200
 	trade Plastic 680
-	fleet "Small Southern Merchants" 500
-	fleet "Large Southern Merchants" 1000
+	fleet "Small Southern Merchants" 300
+	fleet "Large Southern Merchants" 500
+	fleet "Small Arena Security" 300
+	fleet "Large Arena Security" 500
 	object "Southern Arena Wormhole"
 		sprite planet/wormhole
 		distance 4000
@@ -71,175 +70,46 @@ system Ochillon
 			sprite planet/luna
 			distance 280
 			period 25
-system Hunides
-	pos -600 -535
-	government Arena
-	habitable 400
-	asteroids "small rock" 25 5
-	asteroids "medium rock" 25 5
-	asteroids "large rock" 25 10
-	trade Equipment 470
-	trade Food 200
-	trade "Heavy Metals" 1100
-	trade Industrial 230
-	trade "Luxury Goods" 1600
-	trade Medical 630
-	trade Metal 200
-	trade Plastic 680
-	fleet "Small Southern Merchants" 500
-	fleet "Large Southern Merchants" 1000
-	object "Northern Arena Wormhole"
-		sprite planet/wormhole
-		distance 4000
-		period 2000
-	object "Northern Private Arena"
-		sprite planet/wormhole
-		distance 1500
-		period 4000	
-	object
-		sprite star/k0
-		distance 0
-	object Uziri
-		sprite planet/earth
-		distance 500
-		period 250
-		object
-			sprite planet/luna
-			distance 250
-			period 25
 
-system Engalia
-	pos -570 -495
-	government Arena
-	habitable 400
-	asteroids "small rock" 25 5
-	asteroids "medium rock" 25 5
-	asteroids "large rock" 25 10
-	trade Equipment 470
-	trade Food 200
-	trade "Heavy Metals" 1100
-	trade Industrial 230
-	trade "Luxury Goods" 1600
-	trade Medical 630
-	trade Metal 200
-	trade Plastic 680
-	link Daotov
-	link Neliv
-	fleet "Large Red" 1000
-	fleet "Large Green" 1000
-	fleet "Large Blue" 1000
-	fleet "Small Red" 500
-	fleet "Small Green" 500
-	fleet "Small Blue" 500
-	object
-		sprite star/k0
-		distance 0
-	object Station-1
-		sprite planet/station3
-		distance 500
-		period 250
-	object "Northern Private Arena"
-		sprite planet/wormhole
-		distance 1500
-		period 4000	
+
 		
-system Neliv
-	pos -550 -465
-	government Arena
-	habitable 400
-	asteroids "small rock" 25 5
-	asteroids "medium rock" 25 5
-	asteroids "large rock" 25 10
-	trade Equipment 470
-	trade Food 200
-	trade "Heavy Metals" 1100
-	trade Industrial 230
-	trade "Luxury Goods" 1600
-	trade Medical 630
-	trade Metal 200
-	trade Plastic 680
-	link Daotov
-	link Engalia
-	fleet "Large Red" 1000
-	fleet "Large Green" 1000
-	fleet "Large Blue" 1000
-	fleet "Small Red" 500
-	fleet "Small Green" 500
-	fleet "Small Blue" 500
-	object
-		sprite star/k0
-		distance 0
-	object Station-2
-		sprite planet/station3
-		distance 500
-		period 250
-		object
-system Daotov
-	pos -620 -455
-	government Arena
-	habitable 400
-	asteroids "small rock" 25 5
-	asteroids "medium rock" 25 5
-	asteroids "large rock" 25 10
-	trade Equipment 470
-	trade Food 200
-	trade "Heavy Metals" 1100
-	trade Industrial 230
-	trade "Luxury Goods" 1600
-	trade Medical 630
-	trade Metal 200
-	trade Plastic 680
-	link Neliv
-	link Engalia
-	fleet "Large Red" 1000
-	fleet "Large Green" 1000
-	fleet "Large Blue" 1000
-	fleet "Small Red" 500
-	fleet "Small Green" 500
-	fleet "Small Blue" 500
-	object
-		sprite star/k0
-		distance 0
-	object Station-3
-		sprite planet/station3
-		distance 500
-		period 250
-		object
 
-planet "Station-1"
-	attributes arena
-	landscape land/station5
-	description `	This is used as a resting/repairing place for arena players.`
-	spaceport `	There is nothing here except a few bars to rest at.`
-	
-planet "Station-2"
-	attributes arena
-	landscape land/station5
-	description `	This is used as a resting/repairing place for arena players.`
-	spaceport `	There is nothing here except a few bars to rest at.`
 
-planet "Station-3"
-	attributes arena
-	landscape land/station5
-	description `	This is used as a resting/repairing place for arena players.`
-	spaceport `	There is nothing here except a few bars to rest at.`
-	
-planet "Uziri"
-	attributes arena
-	landscape land/city4
-	description `	Uziri was founded after Lilac, but people usally don't refur to Uziri as a so called, "arena," but rather as a "fighting pit." This is due the fact that instead of having arena jobs as a 1v1 or a teamed battle, you're are put into teams (you're in the blue team) and told to fight other teams in a colection of systems.`
-	spaceport `	The spaceport in Uziri is bigger than Lilac's beacause people prefur the fighting action here then in Lilac. You think this is beacause the enemies here are weaker, but your not entirely sure.` 
-	government Arena
-	bribe 0
-	security 0.9	
 	
 
 
 planet "Lilac"
 	attributes arena
 	landscape land/city0
-	description `	Lilac was the first arena founded and also the hardest arena founded. People who compete in this arena are required to be very prepaired with most of their ships mostly being from aliens. Some examples of common ships used in this arena include the Korath Raider and the Quarg Wardragon, both of which have very rare outfits to plunder, but are very hard to obtain. Dispite the risk, many people come to compete in this deadly arena, most of the new people being turned down and told to go elsewhere.`
-	spaceport `	The spaceport in Lilac, while filled to the brim with restraunts, hotels, and attractions, is also ment to teach new arena players how to fight and survive. Unfortinatly, these methods of teaching aren't too good and most beginners who learn from them fail in combat.` 
+	description `	Lilac is the home of the arena, and one of the most popular planets to go to. Many people are surprised that the area is as calm as it is. Some say that the security patrolling the area is almost useless as no pirates try to invade. Intrestingly enough, even rival companies are calmer in the area by each one sending at least a basic shipment of outifts or ships every month or so.`
+	spaceport `	The spaceport in Lilac, while filled to the brim with restraunts, hotels, and attractions, is also surprisingly calm with nice pilots, helpful landing assistants, and charming guides to show you around the spaceport and any other nearby areas.` 
+	
+	outfitter "Basic Outfits"
+	outfitter "Common Outfits"
+	outfitter "Basic Weapons"
+	outfitter "Ammo North"
+	outfitter "Ammo South"
+	outfitter "Deep Sky Basics"
+	outfitter "Delta V Basics"
+	outfitter "Lovelace Basics"
+	outfitter "Syndicate Basics"
+	outfitter "Kraz Basics"
+	outfitter "Kraz Advanced"
+	
+	shipyard "Basic Ships"
+	shipyard "Tarazed Basics"
+	shipyard "Tarazed Advanced"
+	shipyard "Southbound Basics"
+	shipyard "Lionheart Basics"
+	shipyard "Betelgeuse Basics"
+	shipyard "Navy Basics"
+	shipyard "Megaparsec Basics"
+	shipyard "Syndicate Basics"
+	shipyard "Northern Pirates"
+	shipyard "Southern Pirates"
+	shipyard "Advanced Southern Pirates"
+	shipyard "Core Pirates"
+	
 	government Arena
 	bribe 0
 	security 0.9
@@ -256,14 +126,4 @@ planet "Southern Private Arena"
 	spaceport ""
 	
 	
-planet "Northern Arena Wormhole"
-	government "Southern Arena Wormhole"
-	description ""
-	spaceport ""
-	
-	
-planet "Northern Private Arena"
-	government "Northern Private Arena"
-	description ""
-	spaceport ""
 
