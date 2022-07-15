@@ -113,7 +113,7 @@ mission "Arena-HW"
 
 mission "Arena-Rand"
 	name "Arena: Random"
-	description "Sign up in a random battle and have the chance from fighting anything from an intercepter to a heavy warship."
+	description "Sign up in a random battle and have the chance from fighting anything from an intercepter to a heavy warship. If you win, you will recive a reward of <payment>."
 	repeat
 	job
 	source Lilac
