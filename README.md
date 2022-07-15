@@ -1,10 +1,12 @@
 # The Arenas
-This mod contains two arenas that are supposed to be used in-game but can also be used for testing. The arenas are called the northern arena and the southern arena. The northern arena has a teamed combat system that is simalar to a three-way war. This arena contains four systems including the main non-combat system. The southern arena on the other hand has a coliseum combat system where you choose who to fight against on the job board, then enter a wormhole to start fighting. (There is one teamed mission) In total, the southern arena contains two systems.
+This mod contains an arena and a alternitive start that are supposed to be used in-game but can also be used for testing. The arena inside this mod is a planet between two wormholes. One leading to the fighting area, the other to the main galaxy. Inbetween is a planet that has all of the outfits you will need to stock up on and some basic ships for players that are getting upgrades between fights. Other than that, you can use the job board at the arena planet to sign up for arena fights.
 
-# Arena Locations
-The northern arena can be found at the northernmost of human space next to the three pirate worlds. The exact system is called Unagi. Here, there isn't much of a ship level reccomendation.
+# Arena Location
+To reach the arena, try and go as far down as possible. A little to the left of the Quarg should be a system named Tirex. There, ignore go through the wormhold to reach the system with the arena planet on it.
 
-The southern arena can be found at the southernmost of human space. The exact system is called Sadr. To succeed, you will need a large fleet of teir II battleships. From there, you can work on the easier jobs to complete the hardest job(s). 
+# Other:
 
-# Special Thanks & Credits:
-My family, the Endless Sky devs, the Endless Sky communisty, yuagiss, CriticalHit, and Antman23
+Special thanks to:
+My family, yuagiss, CriticalHit, and Antman23
+
+If you want to check out my other arena mod, go to:
