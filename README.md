@@ -6,19 +6,17 @@ To reach the arena, try and go as far down as possible. A little to the left of 
 
 # Updates
 
-≋ 2.0 ~ ∞ (Regular Updates & Bug Fixes)
+≋ 1.7 ~ ∞ (Regular Updates & Bug Fixes)
 
-≋ 2.0 Finished Version
+≋ 1.7 Finished Version
 
-≋ 1.5 ~ 1.9 (Battles or Tweaks)
+≋ 1.6 (Bug Fixes or Tweaks)
 
-≋ 1.6 (Full Storyline)
-
-≋ 1.5 (Battles or Tweaks)
+≋ 1.5 (5 New Battles)
 
 1.4 (New Planet for Harder Missions) {Harder missions will be non-repeatable high-reward missions}
 
-1.3 (First Contact)
+1.3 (Intro Mission)
 
 Current >> 1.2 (Random Battle Option)
 
