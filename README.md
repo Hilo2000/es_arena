@@ -14,9 +14,9 @@ To reach the arena, try and go as far down as possible. A little to the left of 
 
 ≋ 1.7 Finished Version
 
-≋ 1.6 (Fix Intro Mission Grammer & Spelling)
+1.6 (Fix Intro Mission Grammer & Spelling)
 
-≋ 1.5 (5 New Battles)
+1.5 (New Hard Battles)
 
 1.4 (New Planet for Harder Missions) {Harder missions will be non-repeatable high-reward missions}
 
