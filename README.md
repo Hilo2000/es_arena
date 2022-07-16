@@ -10,17 +10,15 @@ To reach the arena, try and go as far down as possible. A little to the left of 
 
 ## Updates
 
-≋ 1.7 ~ ∞ (Regular Updates & Bug Fixes)
+≋ 1.6 ~ ∞ (Regular Updates & Bug Fixes)
 
-≋ 1.7 Finished Version
+≋ 1.6 Finished Version
 
-1.6 (Fix Intro Mission Grammer & Spelling)
+1.5 (Fix Intro Mission Grammer & Spelling)
 
-1.5 (New Hard Battles)
+1.4 (New Hard Battles)
 
-1.4 (New Planet for Harder Missions) {Harder missions will be non-repeatable high-reward missions}
-
-Current >> (Intro Mission)
+Current >> 1.5 (Intro Mission)
 
 1.2 (Random Battle Option)
 
