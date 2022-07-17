@@ -26,6 +26,9 @@ Current >> 1.6 (Finished Version)
 
 ## Other
 
+Remember to leave any suggustions, bugs, or mistakes in the issues tab so I can fix the right away!
+Also, I have decided against putting the Drak and Korath alien battles to avoid ruining the game to those who haven't discovered them yet.
+
 Special thanks to:
 My family, yuagiss, and Antman23
 
