@@ -16,17 +16,15 @@ To reach the arena, try and go as far down as possible. A little to the left of 
 
 1.5 (Fix Intro Mission Grammer & Spelling)
 
-1.4 (New Hard Battles)
+Current >> 1.4 (New Hard Battles)
 
-Current >> 1.3 (Intro Mission)
+1.3 (Intro Mission)
 
 1.2 (Random Battle Option)
 
 1.1 (New Dialogue)
 
 1.0 (Basic)
-
-KEY: {Marker points to current version} {If ≋ is shown, the version number is approximate} {Version Number} {(What was added in the version)}
 
 ## Other
 
