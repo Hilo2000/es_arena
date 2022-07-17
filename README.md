@@ -10,13 +10,13 @@ To reach the arena, try and go as far down as possible. A little to the left of 
 
 ## Updates
 
-≋ 1.6 ~ ∞ (Regular Updates & Bug Fixes)
+1.6 ~ ∞ (Regular Updates & Bug Fixes)
 
-≋ 1.6 Finished Version
+Current >> 1.6 (Finished Version)
 
 1.5 (Fix Intro Mission Grammer & Spelling)
 
-Current >> 1.4 (New Hard Battles)
+1.4 (New Hard Battles)
 
 1.3 (Intro Mission)
 
