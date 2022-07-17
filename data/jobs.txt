@@ -211,7 +211,26 @@ mission "Arena-CA"
 		dialog "You land back down with quite a loud roar from the croud and collect your payment as well as recive the keycard to a brand new Quark Skylark parker right beside the spaceport."
 		give ship "Carrier" "Carrier"
 
-
+mission "Arena-CR"
+	name "Arena: Crusier"
+	description "A navy officer claims to have bought three Cruisers and says that anyone who is able to beat two crusisers at once will recive the thrid one."
+	job
+	source Lilac
+	npc kill
+		government "Arena (Players)"
+		personality heroic staying nemesis target
+		system Tirax
+		fleet
+			names "arena"
+			variant
+				"Cruiser" 2
+				"Combat Drone" 8
+		dialog "You have defeated the enemies. You should land back on Lilac to claim your prize."
+	on visit
+		dialog "You have went back to Lilac, but have not defeated the enemies! You should get back to the private arena to finish him off."
+	on complete
+		dialog "You land back down with quite a loud roar from the croud and collect the keycard to a brand new Cruiser right beside the spaceport."
+		give ship "Cruiser" "Cruiser"
 
 
 		
