@@ -30,5 +30,5 @@ MAJOR UPDATE -> 1.6 (More Information Below)
 Remember to leave any suggustions, bugs, or mistakes in the issues tab so I can fix the right away!
 
 Special thanks to:
-My family, yuagiss, and Antman23
+yuagiss, Bubbafrog, and Antman23
 
