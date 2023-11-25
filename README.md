@@ -10,7 +10,8 @@ To reach the arena, try and go as far down as possible. A little to the left of 
 
 ## Updates
 
-Current >> 1.6 (Finished Version)
+MAJOR UPDATE -> 1.6 (More Information Below)
+-> Updated outfits to include nukes, removed the Quarg arena fights, included 2 new special battles for City-Ship and Navy licences, AND MORE.
 
 1.5 (Fix Intro Mission Grammer & Spelling)
 
