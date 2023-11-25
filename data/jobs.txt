@@ -237,7 +237,7 @@ mission "License-CC"
 	on visit
 		dialog "You have went back to Lilac, but have not defeated the enemies! You should get back to the private arena to finish him off."
 	on complete
-		dialog "Instead of the croud cheering, they seem to be booing. You recive your 4 Navy licenses and head to the spaceport to cool off for a bit. You seem to notice some big crates being pulled into the outfitter though, you might want to check it out."
+		dialog "Instead of the croud cheering, they seem to be booing. You recive your 4 Navy licenses and head to the spaceport to cool off for a bit."
 		set "license: Navy Auxiliary"
 		set "license: Navy"
 		set "license: Navy Cruiser"
