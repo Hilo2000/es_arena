@@ -1,0 +1,268 @@
+#Lilac -----------
+
+
+
+mission "Arena-I"
+	name "Arena: Interceptor"
+	description "A new player with a ship known as <npc> has challenged you to a battle. Fight and beat them at Tirax to bet a prize of <payment>."
+	repeat
+	job
+	source Lilac
+	npc kill
+		government "Arena (Players)"
+		personality heroic staying nemesis target
+		system Tirax
+		fleet
+			names "arena"
+			variant
+				"Hawk"
+			variant
+				"Wasp"
+			variant
+				"Fury"
+			variant
+				"Sparrow"
+		dialog "You have defeated the <npc>, you should land back on Lilac now."
+	on visit
+		dialog "You have went back to Lilac, but have not defeated the <npc>! You should get back to the private arena to finish him off."
+	on complete
+		payment 100000
+		dialog "You land back down on Lilac and the croud softly claps. You recive your payment and head out. The <npc> has ben defeated."
+
+
+mission "Arena-LW"
+	name "Arena: Light Warship"
+	description "A starter arena player with a ship known as <npc> has challenged you to a battle. Fight and beat them at Tirax to bet a prize of <payment>."
+	repeat
+	job
+	source Lilac
+	npc kill
+		government "Arena (Players)"
+		personality heroic staying nemesis target
+		system Tirax
+		fleet
+			names "arena"
+			variant
+				"Raven"
+			variant
+				"Quicksilver"
+			variant
+				"Gunboat"
+			variant
+				"Headhunter"
+		dialog "You have defeated the <npc>, you should land back on Lilac now."
+	on visit
+		dialog "You have went back to Lilac, but have not defeated the <npc>! You should get back to the private arena to finish him off."
+	on complete
+		payment 300000
+		dialog "You land back down with a small roar from the croud and recive your payment. The <npc> has ben defeated."
+
+
+mission "Arena-MW"
+	name "Arena: Medium Warship"
+	description "A rookie arena player with a ship known as <npc> has challenged you to a battle. Fight and beat them at Tirax to bet a prize of <payment>."
+	repeat
+	job
+	source Lilac
+	npc kill
+		government "Arena (Players)"
+		personality heroic staying nemesis target
+		system Tirax
+		fleet
+			names "arena"
+			variant
+				"Osprey"
+			variant
+				"Firebird"
+			variant
+				"Aerie"
+			variant
+				"Manta"
+		dialog "You have defeated the <npc>, you should land back on Lilac now."
+	on visit
+		dialog "You have went back to Lilac, but have not defeated the <npc>! You should get back to the private arena to finish him off."
+	on complete
+		payment 500000
+		dialog "You land back down with a roar from the croud and recive your payment. The <npc> has ben defeated."
+
+mission "Arena-HW"
+	name "Arena: Heavy Warship"
+	description "An intermidiate arena player with a ship known as <npc> has challenged you to a battle. Fight and beat them at Tirax to bet a prize of <payment>."
+	repeat
+	job
+	source Lilac
+	npc kill
+		government "Arena (Players)"
+		personality heroic staying nemesis target
+		system Tirax
+		fleet
+			names "arena"
+			variant
+				"Leviathan"
+			variant
+				"Falcon"
+			variant
+				"Protector"
+			variant
+				"Vanguard"
+		dialog "You have defeated the <npc>, you should land back on Lilac now."
+	on visit
+		dialog "You have went back to Lilac, but have not defeated the <npc>! You should get back to the private arena to finish him off."
+	on complete
+		payment 700000
+		dialog "You land back down with a loud roar from the croud and recive your payment. The <npc> has ben defeated."
+
+
+mission "Arena-Rand"
+	name "Arena: Random"
+	description "Sign up in a random battle and have the chance from fighting anything from an intercepter to a heavy warship. If you win, you will recive a reward of <payment>."
+	repeat
+	job
+	source Lilac
+	npc kill
+		government "Arena (Players)"
+		personality heroic staying nemesis target
+		system Tirax
+		fleet
+			names "arena"
+			variant
+				"Leviathan"
+			variant
+				"Falcon"
+			variant
+				"Protector"
+			variant
+				"Vanguard"
+			variant
+				"Osprey"
+			variant
+				"Firebird"
+			variant
+				"Aerie"
+			variant
+				"Manta"
+			variant
+				"Raven"
+			variant
+				"Quicksilver"
+			variant
+				"Gunboat"
+			variant
+				"Headhunter"
+			variant
+				"Hawk"
+			variant
+				"Wasp"
+			variant
+				"Fury"
+			variant
+				"Sparrow"
+		dialog "You have defeated the <npc>, you should land back on Lilac now."
+	on visit
+		dialog "You have went back to Lilac, but have not defeated the <npc>! You should get back to the private arena to finish him off."
+	on complete
+		payment 350000
+		dialog "You land back down and recive your payment. The <npc> has ben defeated."
+
+
+
+
+
+#-HERE AND DOWN-----------------------------Non-Repeatable; Rewards++
+
+mission "Arena-CA"
+	name "Arena: Carrier"
+	description "A Navy officer proudly presents his Carrier which he claims to be indestructible. He says that anyone that can beat his Carrier he will steal another to give to the winner and risk loosing his job. You may also attempt capture on this mission."
+	job
+	source Lilac
+	npc kill
+		government "Arena (Players)"
+		personality heroic staying nemesis target
+		system Tirax
+		fleet
+			names "arena"
+			variant
+				"Carrier"
+				"Lance" 4
+				"Combat Drone" 6
+		dialog "You have defeated the <npc>, you should land back on Lilac now."
+	on visit
+		dialog "You have went back to Lilac, but have not defeated the <npc>! You should get back to the private arena to finish him off."
+	on complete
+		dialog "You land back down with quite a loud roar from the croud and collect your payment as well as recive the keycard to a brand new Navy Carrier parked right beside the spaceport."
+		give ship "Carrier" "Carrier"
+
+mission "Arena-CR"
+	name "Arena: Crusier"
+	description "A Navy officer has bought three Cruisers and says that anyone who is able to beat two crusisers at once will recive the thrid one. You may also attempt capture on this mission."
+	job
+	source Lilac
+	npc kill
+		government "Arena (Players)"
+		personality heroic staying nemesis target
+		system Tirax
+		fleet
+			names "arena"
+			variant
+				"Cruiser" 2
+				"Combat Drone" 8
+		dialog "You have defeated the enemies. You should land back on Lilac to claim your prize."
+	on visit
+		dialog "You have went back to Lilac, but have not defeated the enemies! You should get back to the private arena to finish him off."
+	on complete
+		dialog "You land back down with quite a loud roar from the croud and collect the keycard to a brand new Cruiser right beside the spaceport."
+		give ship "Cruiser" "Cruiser"
+
+mission "License-CC"
+	name "Arena: Special License Offer"
+	description "Because you have bested the navy fleets inside of the arena; you are offered a challange that may reward you with a Navy license! (BE WARNED, EXTREMLY HARD)"
+	job
+	source Lilac
+	to offer
+		has "Arena-CR: done"
+		has "Arena-CA: done"
+	npc kill
+		government "Arena (Players)"
+		personality heroic staying nemesis target
+		system Tirax
+		fleet
+			names "arena"
+			variant
+				"Carrier" 2
+				"Lance" 12
+				"Combat Drone" 36
+				"Cruiser" 6
+				"Auxiliary" 2
+		dialog "You have defeated the enemies. You should land back on Lilac to claim your prize."
+	on visit
+		dialog "You have went back to Lilac, but have not defeated the enemies! You should get back to the private arena to finish him off."
+	on complete
+		dialog "Instead of the croud cheering, they seem to be booing. You recive your 4 Navy licenses and head to the spaceport to cool off for a bit. You seem to notice some big crates being pulled into the outfitter though, you might want to check it out."
+		set "license: Navy Auxiliary"
+		set "license: Navy"
+		set "license: Navy Cruiser"
+		set "license: Navy Carrier"
+
+		
+mission "Arena-BA"
+	name "Arena: Bactrian"
+	description "Mike, your old tour guide offers to give a city-ship license if you can defeat his Bactrian."
+	job
+	source Lilac
+	npc kill
+		government "Arena (Players)"
+		personality heroic staying nemesis target
+		system Tirax
+		fleet
+			names "arena"
+			variant
+				"Bactrian" 1
+				"Lance" 3
+		dialog "You have defeated Mike. You should land back on Lilac to claim your prize."
+	on visit
+		dialog "..."
+	on complete
+		dialog "Ann gives you a funny look and slides you your new license. They might need a new tour guide."
+		set "license: City-Ship"
+
+
