@@ -1,0 +1,61 @@
+
+government "Arena"
+	swizzle 3
+	"player reputation" 1
+	"attitude toward"
+		"Pirate" -1000
+	"bribe" 0
+	"fine" 0
+	
+government "Arena (Republic)"
+	swizzle 0
+	color "governments: Republic"
+	"player reputation" -1000
+	"attitude toward"
+		"Arena (Free Worlds)" -1000
+		"Arena (Republic- Friendly)" 1000
+		"Arena (Independent)" -1000
+	fine 0
+	
+government "Arena (Republic- Friendly)"
+	swizzle 0
+	color "governments: Republic"
+	"player reputation" 1
+	"attitude toward"
+		"Arena (Republic)" 1000
+		"Arena (Free Worlds)" 1000
+		"Arena (Independent)" -1000
+	fine 0
+	
+government "Arena (Free Worlds)"
+	swizzle 2
+	color "governments: Free"
+	"player reputation" 1
+	"attitude toward"
+		"Arena (Republic)" -1000
+		"Arena (Republic- Friendly)" 1000
+		"Arena (Independent)" -1000
+	fine 0
+	
+government "Arena (Independent)"
+	swizzle 6
+	color "governments: Independent"
+	"player reputation" -1000
+	"attitude toward"
+		"Arena (Republic- Friendly)" -1000
+		"Arena (Free Worlds)" -1000
+		"Arena (Republic)" -1000
+	
+
+government "Southern Arena Wormhole"
+	"bribe" 0
+	"fine" 0
+
+		
+government "Southern Private Arena"
+	"attitude toward"
+		"Arena (Players)" -1000
+		"Merchant" -1000
+		"Arena" -1000
+		
+

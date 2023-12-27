@@ -1,0 +1,16 @@
+
+mission "First Contact: Arena"
+	landing
+	source Lilac
+	on offer
+		conversation
+			`	Upon landing in Lilac, two people gather where the enterance of you ship is at. After parking, you take a closer look and see a suited woman holding a clipboard; she is standing next to a bodybuilder. You step out of your ship and greet them. The woman introduces herself as Ann and says, "Welcome to the arena! For new people we have a tour guide to show them around. This is Mike, and he will be your tour guide today. Of course, if you wish to be shown around." There is a short pause, and Mike says, "Anyway, should I start to show you around?"`
+			choice
+				`	"Sure! That would be nice."`
+				`	"I think I would rather figure things out on my own."`
+					decline
+					
+			
+			`	"Great! Let's start here. First we have the outfitter and shipyard complex which is a must for all arena players to stock up on ammo and supplies -" You notice that Ann has slipped away without a trace. "Anyway," Mike continues, "What you are really going to need is the directions to the arena and how to sign up for a fight. The sign up is simple, you go to the job board and check off a mission. Then, to fight, leave the planet and hyperjump to the system East! There, you can fight your enemies and land on Itis, which is the station there. Simple, right? Anyway, get at it! You got this little buddy." And just like that, Mike fades through a busy croud of enthusiastic tourists.`
+				decline
+

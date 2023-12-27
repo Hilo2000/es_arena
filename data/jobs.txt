@@ -1,0 +1,203 @@
+#Lilac -----------
+
+
+
+mission "Navy-I"
+	name "Arena: Free Worlds vs Navy"
+	description "With a Free Worlds fleet: fly to Asteria, defeat the enemies, and land on station Itis to recive a cash prize."
+	repeat
+	job
+	source Lilac
+	destination Itis
+	npc
+		government "Arena (Free Worlds)"
+		personality heroic disables escort
+		ship "Dreadnought" "F.S. Alpha"
+		ship "Dreadnought" "F.S. Beta"
+		ship "Dreadnought" "F.S. Gamma"
+		ship "Dreadnought" "F.S. Delta"
+		ship "Dreadnought" "F.S. Epsilon"
+		ship "Dreadnought" "F.S. Zeta"
+		ship "Fury (Flamethrower)" "F.S. Eta"
+		ship "Fury (Flamethrower)" "F.S. Theta"
+		ship "Fury (Flamethrower)" "F.S. Iota"
+		ship "Fury (Flamethrower)" "F.S. Kappa"
+		ship "Fury (Flamethrower)" "F.S. Lambda"
+	npc evade
+		system Asteria
+		personality heroic uninterested staying
+		government "Arena (Republic)"
+		fleet 2
+			names "republic capital"
+			fighters
+				names "republic fighter"
+			variant
+				"Carrier (Mark II)"
+				"Lance" 4
+				"Combat Drone" 6
+		fleet 3
+			names "republic capital"
+			fighters
+				names "republic fighter"
+			variant
+				"Cruiser (Mark II)"
+				"Combat Drone" 4
+		fleet 3
+			names "republic small"
+			variant
+				"Rainmaker (Mark II)" 2
+		fleet 2
+			names "republic small"
+			variant
+				"Gunboat (Mark II)" 3
+		fleet 2
+			names "republic small"
+			variant
+				"Gunboat (Mark II)" 2
+	on visit
+		dialog "You have an uncompleted mission! Please defeat the enemies and return back later."
+		launch
+	on complete
+		payment 100000
+		dialog "Battle victory! Well done- a payment of 100,000 credits has been issued to you."
+
+
+mission "Indi-I"
+	name "Arena: Small Arms Battle"
+	description "With a light warship fleet: fly to Asteria, defeat the enemies, and land on station Itis to recive a cash prize."
+	repeat
+	job
+	source Lilac
+	destination Itis
+	npc
+		government "Arena (Republic- Friendly)"
+		personality heroic disables escort
+		fleet 2
+			names "republic capital"
+			variant
+				"Berserker" 6
+				"Sparrow" 6
+		fleet 2
+			names "republic capital"
+			variant
+				"Fury" 12
+	npc evade
+		system Asteria
+		personality heroic uninterested staying
+		government "Arena (Independent)"
+		fleet 3
+			names "pirate"
+			variant
+				"Sparrow" 6
+				"Fury" 6
+		fleet 3
+			names "pirate"
+			variant
+				"Wasp" 6
+				"Hawk" 6
+
+	on visit
+		dialog "You have an uncompleted mission! Please defeat the enemies and return back later."
+		launch
+	on complete
+		payment 100000
+		dialog "Battle victory! Well done- a payment of 100,000 credits has been issued to you."
+		
+mission "Arena-HW"
+	name "Arena: Heavy Warship 1v1"
+	description "An intermidiate arena player with a ship known as <npc> has challenged you to a battle. Fight and beat them at Asteria to bet a prize of <payment>."
+	repeat
+	job
+	source Lilac
+	npc kill
+		government "Arena (Independent)"
+		personality heroic staying nemesis target
+		system Asteria
+		fleet
+			names "pirate"
+			variant
+				"Leviathan"
+			variant
+				"Falcon"
+			variant
+				"Protector"
+			variant
+				"Vanguard"
+		dialog "You have defeated the <npc>, you should land back on Lilac now."
+	on visit
+		dialog "You have went back to Lilac, but have not defeated the <npc>! You should get back to Asteria to finish him off."
+	on complete
+		payment 25000
+		dialog "You land back down with a loud roar from the croud and recive your payment. The <npc> has ben defeated."
+		
+mission "Arena-Rand"
+	name "Arena: Random 1v1"
+	description "Sign up in a random battle and have the chance from fighting anything from an intercepter to a heavy warship. If you win, you will recive a reward of <payment>."
+	repeat
+	job
+	source Lilac
+	npc kill
+		government "Arena (Players)"
+		personality heroic staying nemesis target
+		system Asteria
+		fleet
+			names "pirate"
+			variant
+				"Leviathan"
+			variant
+				"Falcon"
+			variant
+				"Protector"
+			variant
+				"Vanguard"
+			variant
+				"Osprey"
+			variant
+				"Firebird"
+			variant
+				"Aerie"
+			variant
+				"Manta"
+			variant
+				"Raven"
+			variant
+				"Quicksilver"
+			variant
+				"Gunboat"
+			variant
+				"Headhunter"
+			variant
+				"Hawk"
+			variant
+				"Wasp"
+			variant
+				"Fury"
+			variant
+				"Sparrow"
+		dialog "You have defeated the <npc>, you should land back on Lilac now."
+	on visit
+		dialog "You have went back to Lilac, but have not defeated the <npc>! You should get back to the private arena to finish him off."
+	on complete
+		payment 35000
+		dialog "You land back down and recive your payment. The <npc> has ben defeated."
+		
+mission "Arena-AfH"
+	name "Arena: Arms for Hire"
+	description "For 1 million credits hire a large Free Worlds fleet consisting of one Falcon and two Furys for 40 days. Return to Itis to end the contract."
+	repeat
+	job
+	deadline 40
+	source Lilac
+	destination Itis
+	on fail
+		dialog `The time for your Arms for Hire contract has expired. Your account has been charged.`
+		payment -1000000
+	npc
+		government "Arena (Free Worlds)"
+		personality heroic disables escort
+		ship "Falcon" "F.S. Alpha"
+		ship "Fury (Flamethrower)" "F.S. Beta"
+		ship "Fury (Flamethrower)" "F.S. Gamma"
+	on complete
+		payment -1000000
+		dialog "The contract has been signed off, your account has been billed."
