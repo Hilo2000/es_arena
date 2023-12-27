@@ -1,32 +1,9 @@
-# Arena
+# 1.7 BETA
 
 ![Screenshot from 2022-07-15 16-16-42](https://user-images.githubusercontent.com/67700001/179304485-b431b415-7de8-4de5-a3cf-c4dffa1c9aab.png)
 
-## The Arenas
-This mod contains an arena that is supposed to be used in-game but can also be used for testing. The arena inside this mod is a planet between two wormholes. One leading to the fighting area, the other to the main galaxy. Inbetween is a planet that has all of the outfits you will need to stock up on and some basic ships for players that are getting upgrades between fights. Other than that, you can use the job board at the arena planet to sign up for arena fights.
-
-## Arena Location
-To reach the arena, try and go as far down as possible. A little to the left of the Quarg should be a system named Sadr. There, go through the wormhold to reach the system with the arena planet on it.
-
-## Updates
-
-MAJOR RELEASE -> 1.7 (More Information Below)
--> A new release for ES-Arena will come out exchanging some of the 1v1 combat to be replaced with large recreations of FW/Republic (and more) battles!
--> Expected to release with 3 new missions, reusing 2 from version 1.6. 
-
-1.6 (New Outfits & License Missions)
-
-1.5 (Fix Intro Mission Grammer & Spelling)
-
-1.4 (New Hard Battles)
-
-1.3 (Intro Mission)
-
-1.2 (Random Battle Option)
-
-1.1 (New Dialogue)
-
-1.0 (Basic)
+## What's New
+Some map changes and 5 missions total for the new 1.7 beta! 2 missions have been reused from versions 1.6 and lower (unfortinatly, the license missions are not expected to return). 2 new missions have been added, recreating war-like battles against and with the Navy! Finally, a new type of mission will be explored with, called Arms for Hire! The consept being the player will be able to pay to rent out escorts for x days. Through beta development, the content should double the amount of missions! Expect version 1.8 to be a release! <3 
 
 ## Other
 
