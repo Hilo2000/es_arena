@@ -11,8 +11,7 @@ To reach the arena, try and go as far down as possible. A little to the left of 
 ## Updates
 
 MAJOR RELEASE -> 1.7 (More Information Below)
--> A new release for ES-Arena will come out exchanging some of the 1v1 combat to be replaced with large recreations of FW/Republic (and more) battles!
--> Expected to release with 3 new missions, reusing 2 from version 1.6. 
+-> A new release beta release has been added! Check it out under >branches
 
 1.6 (New Outfits & License Missions)
 
