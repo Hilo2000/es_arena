@@ -10,8 +10,7 @@ To reach the arena, try and go as far down as possible. A little to the left of 
 
 ## Updates
 
-MAJOR RELEASE -> 1.7 (More Information Below)
--> A new release beta release has been added! Check it out under >branches
+MAJOR RELEASE -> 1.7 (A new release beta release has been added! Check it out under >branches)
 
 1.6 (New Outfits & License Missions)
 
