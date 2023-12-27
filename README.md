@@ -10,8 +10,11 @@ To reach the arena, try and go as far down as possible. A little to the left of 
 
 ## Updates
 
-MAJOR UPDATE -> 1.6 (More Information Below)
--> Updated outfits to include nukes, removed the Quarg arena fights, included 2 new special battles for City-Ship and Navy licences, AND MORE.
+MAJOR RELEASE -> 1.7 (More Information Below)
+-> A new release for ES-Arena will come out exchanging the 1v1 combat to be replaced with large recreations of FW/Republic (and more) battles! 
+-> It will be avaible soon under the releases tab. However, it is likely a future update will combine both releases. 
+
+1.6 (New Outfits & License Missions)
 
 1.5 (Fix Intro Mission Grammer & Spelling)
 
